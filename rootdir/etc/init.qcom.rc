@@ -1,6 +1,7 @@
 # Common HTC 8960 init script
 
 import init.qcom.usb.rc
+import init.target.rc
 
 on early-init
     mkdir /mnt/usbdisk 0755 system system
